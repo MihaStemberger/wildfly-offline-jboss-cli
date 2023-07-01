@@ -1,6 +1,6 @@
 Offline jboss cli example.
 
-`mvn clean package`
+Run `mvn clean package`
  - First, `maven-dependency-plugin` unzips the Wildfly distribution dependency into the target directory(see `target/dependecy`).
  - Then `exec-maven-plugin` executes `cli-runner.sh`, which pipes the `cli-script` to `jboss-cli.sh` found in the unzipped wildfly bin directory
 
