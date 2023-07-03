@@ -5,7 +5,7 @@ Run `mvn clean package`
  - Then `exec-maven-plugin` executes `cli-runner.sh`, which pipes the `cli-script` to `jboss-cli.sh` found in the unzipped wildfly bin directory
 
 Result is a change of `<socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>` inside `standalone.xml`,
- to `<socket-binding name="management-http" interface="management" port="1"/>`
+ to `<socket-binding name="management-http" interface="management" port="9992"/>`
 
 
 See more about offline cli at:
