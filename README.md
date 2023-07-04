@@ -1,3 +1,5 @@
+Can also be done with wildfly-maven-plugin: https://docs.wildfly.org/wildfly-maven-plugin/execute-commands-example.html#Execute-offline-embedded-CLI-scripts
+
 Offline jboss cli example.
 
 Run `mvn clean package`
